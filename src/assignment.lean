@@ -16,8 +16,8 @@ open set function subgroup
 Let `H` be a subgroup of `G`. Then we have
 
 `one_mem : (1 : G) ∈ H`
-`mul_mum:  a ∈ H → b ∈ H → a * b ∈ H`
-`inv_mul : a ∈ H → a⁻¹ ∈ H`
+`mul_mem:  a ∈ H → b ∈ H → a * b ∈ H`
+`inv_mem : a ∈ H → a⁻¹ ∈ H`
 
 For example, suppose `G` is a group, and `H` is a subgroup of `G`.
 -/
